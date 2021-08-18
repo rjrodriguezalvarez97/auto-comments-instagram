@@ -1,0 +1,25 @@
+{
+  "name": "auto-comments-instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjrodriguezalvarez97/auto-comments-instagram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjrodriguezalvarez97/auto-comments-instagram/issues"
+  },
+  "homepage": "https://github.com/rjrodriguezalvarez97/auto-comments-instagram#readme",
+  "dependencies": {
+    "chromedriver": "^92.0.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  }
+}
