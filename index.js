@@ -9,10 +9,8 @@ require("chromedriver");
 
 async function run() {
   let driver = await new Builder().forBrowser("chrome").build();
-  // await driver.get("http://google.com");
   await driver.get("https://instagram.com");
 
-  // await driver.get(INSTAGRAM_POST);
   console.log("Finding Cookies Popup");
 
   await driver
@@ -49,7 +47,6 @@ async function run() {
   await driver.get(INSTAGRAM_POST);
   await driver.sleep(5000);
 
-  console.log(USERS.length);
   for (let i = 0; i < USERS.length; i++) {
     if (i > 0 && i % 10 == 0) {
       console.log("Waiting 5 minutes before commenting");
